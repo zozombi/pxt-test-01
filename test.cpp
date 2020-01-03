@@ -1,10 +1,10 @@
-//% color=190 weight=100 icon="\uf1ec" block="Zozo Blocks"
-namespace zozo {
+#include "pxt.h"
 
-    //% block
-    export function LEDplot() {
-        led.plot(0, 0)
+using namespace pxt;
+
+namespace zozo2 {
+
+   void plot(int x, int y) {
+      uBit.display.image.setPixelValue(x, y, 0xff);
     }
-
 }
-
