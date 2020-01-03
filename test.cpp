@@ -1,10 +1,10 @@
-#include "pxt.h"
+#include "BitVM.h"
+#include "MicroBitTouchDevelop.h"
 
-using namespace pxt;
-
-namespace zozo2 {
-
-   void plot(int x, int y) {
-      uBit.display.image.setPixelValue(x, y, 0xff);
-    }
+namespace foo {
+  //%
+  void bar()
+  {
+    touch_develop::micro_bit::scrollNumber(108108, 50);
+  }
 }
