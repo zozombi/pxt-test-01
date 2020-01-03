@@ -9,7 +9,8 @@
     "files": [
         "README.md",
         "main.ts",
-        "main2.ts"
+        "main2.ts",
+        "test.cpp"
     ],
     "testFiles": [
         "test.ts"
